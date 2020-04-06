@@ -1,0 +1,17 @@
+---
+title: "Final Project" 
+subtitle: "Stat 184"
+author: "Tre Butler, Phil Saroka, Jessica Schick"
+output: html_notebook
+---
+
+## Front Matter
+
+```{r}
+# clean up workspace environment
+rm(list = ls())
+# all packages used for the assignment
+library(mosaic)
+library(tidyverse)
+library(DataComputing)
+```
