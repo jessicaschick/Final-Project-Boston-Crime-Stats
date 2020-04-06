@@ -1,0 +1,29 @@
+---
+title: "Final Project" 
+author: "Philip Saroka"
+output: html_notebook
+---
+
+```{r}
+# clean up workspace environment
+rm(list = ls())
+
+# all packages used for the assignment
+library(mosaicData)
+library(mosaic)
+library(DataComputing)
+library(tidyverse)
+library(forcats)
+library(lubridate)
+library(readxl)
+```
+
+```{r}
+#creating the dataset
+boston_crime_statistics <- read_excel("crime.xlsx")
+```
+
+```{r}
+boston_crime_statistics
+```
+
